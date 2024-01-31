@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: url("../images/fullbooks.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#whole {
+    background-color: rgba(255, 255, 255, 0.4);
+    width: max-content;
+    height: max-content;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 10px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+th,
+td {
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    padding: 5px;
+    text-align: center;
+}
+
+.btn {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn a {
+    display: inline-block;
+    padding: 7px 15px;
+    margin: 0 4px;
+    text-decoration: none;
+    background-color: royalblue;
+    color: white;
+    border-radius: 4px;
+}

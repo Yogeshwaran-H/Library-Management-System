@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/library.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#whole{
+    background-color: rgba(255, 255, 255,0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 30%;
+    height: 50%;
+}
+
+a,g a{ 
+    text-decoration: none;
+    width: 70%;
+    padding: 15px 10px;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+}
