@@ -40,6 +40,7 @@ Student:
     Students can view their own borrowing history.
     
 Technologies Used:
+    Java
     Grails Framework
     Groovy
     MySQL (for database storage)
