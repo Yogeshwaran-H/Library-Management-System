@@ -50,8 +50,8 @@ Technologies Used:
     
 Installation:
 To run this project on your system, you need to have the following prerequisites:
-    Grails 2.0.4
-    Groovy 4.0.0
+    Grails 4.0.0 (Minimum)
+    Groovy 2.5.8 (Minimum)
     Java (version after 8)
     MySQL server with workbench
     
