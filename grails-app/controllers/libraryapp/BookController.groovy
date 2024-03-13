@@ -33,7 +33,7 @@ class BookController {
                 }
             }.take(5)
             flash.allbooks = filteredBooks
-            render(view: 'adminfilterregister', model: [books: filteredBoo  ks])
+            render(view: 'adminfilterregister', model: [books: filteredBooks])
         }
     }
 
